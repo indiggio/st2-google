@@ -1,0 +1,7 @@
+# packs/chatops/aliases/google.yaml
+---
+name: "google_query"
+action_ref: "google.get_search_results"
+description: "Perform a Google search"
+formats:
+  - "google {{query}}"
